@@ -16,15 +16,8 @@ import org.springframework.context.annotation.Import;
  * 00:28:10 - Bean
  * 00:53:20 - Dependency Injection
  * 01:07:51 - Circular Dependencies
- * 01:31:34 - Membuat Scope
- * 02:08:52 - Component Scan
- * 02:14:19 - Component
- * 02:21:54 - Constructor-based Dependency Injection
- * 02:29:06 - Setter-based Dependency Injection
- * 02:32:59 - Field-based Dependency Injection
- * 02:36:48 - Qualifier
- * 02:42:26 - Optional Dependency
- * 02:52:33 - Factory Bean
+ * 02:08:52 - Scan
+ * 02:14:19 - Annotation
  * 03:00:28 - Inheritance
  * 03:05:07 - Bean Factory
  * 03:12:22 - Bean Post Processor
@@ -41,10 +34,9 @@ import org.springframework.context.annotation.Import;
  * 04:27:52 - Command Line Runner
  * 04:34:30 - Application Runner
  * 04:39:49 - Spring Boot Plugin
- * 04:46:31 - Materi Selanjutnya
  */
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.core.basicspring2.anotation"}) // change name after basicspring2.nameFolder to run the app
+@ComponentScan(basePackages = {"com.core.basicspring2.inheritance"}) // change name after basicspring2.nameFolder to run the app
 public class BasicSpring2Application {
 
 //    @Autowired

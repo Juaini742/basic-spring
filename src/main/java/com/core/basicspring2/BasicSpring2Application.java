@@ -19,24 +19,15 @@ import org.springframework.context.annotation.Import;
  * 02:08:52 - Scan
  * 02:14:19 - Annotation
  * 03:00:28 - Inheritance
- * 03:05:07 - Bean Factory
  * 03:12:22 - Bean Post Processor
  * 03:23:58 - Ordered
- * 03:30:24 - Aware
- * 03:37:28 - Bean Factory Post Processor
  * 03:44:15 - Event Listener
- * 03:58:13 - Event Listener Annotation
  * 04:04:00 - Spring Boot Application
- * 04:11:49 - Startup Failure
- * 04:16:34 - Banner
- * 04:19:11 - Customizing Spring Application
  * 04:22:59 - Spring Application Event
- * 04:27:52 - Command Line Runner
- * 04:34:30 - Application Runner
  * 04:39:49 - Spring Boot Plugin
  */
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.core.basicspring2.inheritance"}) // change name after basicspring2.nameFolder to run the app
+@ComponentScan(basePackages = {"com.core.basicspring2.anotation"}) // change name after basicspring2.nameFolder to run the app
 public class BasicSpring2Application {
 
 //    @Autowired
